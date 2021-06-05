@@ -49,4 +49,5 @@ jobs:
         uses: docker://ghcr.io/github/super-linter:slim-v4
         env:
           DEFAULT_BRANCH: main
+          JAVASCRIPT_DEFAULT_STYLE: prettier
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
